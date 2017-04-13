@@ -39,7 +39,7 @@ public class DefaultPlantService implements PlantService
 	public PlantModel findPlantByCode(String code)
 	{
 		// asking  the DAO to get  all models from the database
-		return plantDao.findPlantByCode(code);
+		return plantDao.findByCode(code);
 	}
 
 }

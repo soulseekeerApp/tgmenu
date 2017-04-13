@@ -19,7 +19,6 @@ public abstract class ItemModel {
 
 	
 	public ItemModel() {
-		// TODO Auto-generated constructor stub
 	}
 	public ItemModel(String pk, String name, String description) {
 		super();
