@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+	<ul>
+           <!-- for(PlantModel plant : plants) -->
+		<tr th:each="plant : ${plants}">
+		
+			<li th:text="${plant.pk}"></li>
+			<li th:text="${plant.code}"></li>
+			<li th:text="${plant.name}"></li>
+			<li th:text="${plant.address}"></li>
+			<li th:text="${plant.description}"></li>
+			
+		</tr>
+
+	</ul>
+	
+</body>
+
+</html>
