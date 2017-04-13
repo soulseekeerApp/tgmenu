@@ -11,6 +11,7 @@ import javax.persistence.Entity;
  *
  */
 @Entity
+
 public class PlantModel extends ItemModel {
 
 	private String code;
@@ -45,6 +46,7 @@ public class PlantModel extends ItemModel {
 
 	public void setAddress(String address) {
 		this.address = address;
+
 	}
 	
 	

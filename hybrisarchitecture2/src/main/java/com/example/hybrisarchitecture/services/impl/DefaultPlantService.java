@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.example.hybrisarchitecture.dao.PlantDao;
 import com.example.hybrisarchitecture.model.PlantModel;
 import com.example.hybrisarchitecture.services.PlantService;
+
 /**
  * This its a service here its where we add logic to the method we declared in the @PlantService interface
  * @author KC
@@ -40,6 +41,7 @@ public class DefaultPlantService implements PlantService
 	{
 		// asking  the DAO to get  all models from the database
 		return plantDao.findPlantByCode(code);
+
 	}
 
 }

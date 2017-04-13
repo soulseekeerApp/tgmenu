@@ -52,6 +52,6 @@ public abstract class ItemModel {
 		this.description = description;
 	}
 	
-	
+
 
 }
