@@ -17,9 +17,10 @@ public abstract class ItemModel {
 
 	private String description;
 
-	
 	public ItemModel() {
+
 	}
+
 	public ItemModel(String pk, String name, String description) {
 		super();
 		this.pk = pk;
@@ -50,7 +51,5 @@ public abstract class ItemModel {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
-	
 
 }
