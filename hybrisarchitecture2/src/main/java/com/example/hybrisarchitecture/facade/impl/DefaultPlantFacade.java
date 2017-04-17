@@ -1,4 +1,4 @@
-package com.example.hybrisarchitecture.facade;
+package com.example.hybrisarchitecture.facade.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.example.hybrisarchitecture.dto.PlantData;
+import com.example.hybrisarchitecture.facade.PlantFacade;
 import com.example.hybrisarchitecture.facade.converter.GenericConverter;
 import com.example.hybrisarchitecture.model.PlantModel;
 import com.example.hybrisarchitecture.services.PlantService;

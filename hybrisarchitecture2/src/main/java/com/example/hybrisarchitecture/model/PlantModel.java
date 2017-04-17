@@ -11,44 +11,7 @@ import javax.persistence.Entity;
  *
  */
 @Entity
-<<<<<<< HEAD
 
-public class PlantModel extends ItemModel {
-
-	private String code;
-
-	private String address;
-
-	
-	
-
-	public PlantModel() {
-		// TODO Auto-generated constructor stub
-	}
-	public PlantModel(String pk, String name, String description, String code, String address) {
-		super(pk, name, description);
-		this.code = code;
-		this.address = address;
-	}
-
-
-
-	public String getCode() {
-		return code;
-	}
-
-	public void setCode(String code) {
-		this.code = code;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
-
-=======
 public class PlantModel extends PointOfServiceModel {
 
 	public PlantModel() {
@@ -57,7 +20,7 @@ public class PlantModel extends PointOfServiceModel {
 
 	public PlantModel(String pk, String name, String description, String code, String address) {
 		super(pk, name, description, code, address);
->>>>>>> refs/remotes/origin/master
+
 	}
 	
 	
