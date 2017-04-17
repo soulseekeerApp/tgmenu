@@ -11,6 +11,7 @@ import javax.persistence.Entity;
  *
  */
 @Entity
+<<<<<<< HEAD
 
 public class PlantModel extends ItemModel {
 
@@ -47,6 +48,16 @@ public class PlantModel extends ItemModel {
 	public void setAddress(String address) {
 		this.address = address;
 
+=======
+public class PlantModel extends PointOfServiceModel {
+
+	public PlantModel() {
+		super();
+	}
+
+	public PlantModel(String pk, String name, String description, String code, String address) {
+		super(pk, name, description, code, address);
+>>>>>>> refs/remotes/origin/master
 	}
 	
 	

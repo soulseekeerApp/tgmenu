@@ -9,8 +9,9 @@ package com.example.hybrisarchitecture.facade.converter;
  */
 public interface  GenericConverter <J, K>
 {
-	public K convert(final J source, final  K target);
+	 public K convert(final J source, final  K target);
 	
-	public K convert(final J source);
+	 public K convert(final J source);
+	
 
 }

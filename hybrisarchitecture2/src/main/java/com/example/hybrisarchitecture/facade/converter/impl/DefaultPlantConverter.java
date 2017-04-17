@@ -8,12 +8,12 @@ import com.example.hybrisarchitecture.facade.converter.GenericConverter;
 import com.example.hybrisarchitecture.facade.populator.GenericPopulator;
 import com.example.hybrisarchitecture.model.PlantModel;
 @Component
-public class PlantConverter implements GenericConverter<PlantModel, PlantData>
+public class DefaultPlantConverter implements GenericConverter<PlantModel, PlantData>
 {
 	private final GenericPopulator<PlantModel, PlantData> plantPopulator;
 
 	@Autowired
-	public PlantConverter(GenericPopulator<PlantModel, PlantData> plantPopulator)
+	public DefaultPlantConverter(GenericPopulator<PlantModel, PlantData> plantPopulator)
 	{
 		this.plantPopulator = plantPopulator;
 	}
